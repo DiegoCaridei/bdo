@@ -86,7 +86,6 @@ def bosseOfTheDay():
 def nextBoss(bosses=[Boss]):
     for boss in bosses:
         if boss.time > now.time():
-            print(boss.name + " " + str(boss.time))
             return boss
             break
 
